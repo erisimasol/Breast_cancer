@@ -1,0 +1,12 @@
+prefix=c:/Users/pc/Desktop/ML_Git_Projects/Breast_cancer_dataset/venv/Library
+exec_prefix=c:/Users/pc/Desktop/ML_Git_Projects/Breast_cancer_dataset/venv/Library
+libdir=c:/Users/pc/Desktop/ML_Git_Projects/Breast_cancer_dataset/venv/Library/lib
+includedir=c:/Users/pc/Desktop/ML_Git_Projects/Breast_cancer_dataset/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
